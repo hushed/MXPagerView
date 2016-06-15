@@ -122,6 +122,14 @@ typedef NS_ENUM(NSInteger, MXPagerViewTransitionStyle) {
  */
 - (void)pagerView:(MXPagerView *)pagerView didUnloadPage:(UIView *)page;
 
+/**
+Tells the delegate that the pager's scrollview has scrolled
+
+@param pagerView  A pager object informing the delegate about the impending move.
+@param scrollView The Scrollview informing the delegate about the scrollview's position
+*/
+-(void)pagerView:(MXPagerView *)pagerView didScroll:(UIScrollView*)scrollView;
+
 @end
 
 /**

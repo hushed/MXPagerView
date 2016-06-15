@@ -1,0 +1,43 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/developer/Development/MXPagerView/Example-Swift/build/Debug-iphoneos/MXPagerView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MXPagerView-Swift.h",
+          'external-contents': "/Users/developer/Development/MXPagerView/Example-Swift/build/Debug-iphoneos/MXPagerView.framework/Headers/MXPagerView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MXPagerView-umbrella.h",
+          'external-contents': "/Users/developer/Development/MXPagerView/Example-Swift/Pods/Target Support Files/MXPagerView/MXPagerView-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "MXPagerView.h",
+          'external-contents': "/Users/developer/Development/MXPagerView/MXPagerView/MXPagerView.h"
+        },
+        {
+          'type': 'file',
+          'name': "MXPagerViewController.h",
+          'external-contents': "/Users/developer/Development/MXPagerView/MXPagerView/MXPagerViewController.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/developer/Development/MXPagerView/Example-Swift/build/Debug-iphoneos/MXPagerView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/developer/Development/MXPagerView/Example-Swift/build/Pods.build/Debug-iphoneos/MXPagerView.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

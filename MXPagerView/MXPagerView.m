@@ -365,6 +365,12 @@
     }
 }
 
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+	if ([self.delegate respondsToSelector:@selector(pagerView:didScroll:)]) {
+        [self.delegate pagerView:self didScroll:scrollView];
+    }	
+}
+
 @end
 
 @implementation UIView (ReuseIdentifier)
