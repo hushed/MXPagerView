@@ -208,6 +208,11 @@ Tells the delegate that the pager's scrollview has scrolled
 @property(nonatomic,getter=isScrollEnabled) BOOL scrollEnabled;
 
 /**
+ Default YES. turn off any bouncing on the scrollview
+ */
+@property(nonatomic,getter=isBouncingEnabled) BOOL bouncingEnabled;
+
+/**
  Reloads everything from scratch. redisplays pages.
  */
 - (void)reloadData;

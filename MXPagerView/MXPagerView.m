@@ -207,6 +207,14 @@
     self.contentView.scrollEnabled = scrollEnabled;
 }
 
+- (BOOL)isBouncingEnabled {
+    return [self.contentView bounces];
+}
+
+- (void)setBouncingEnabled:(BOOL)bouncingEnabled {
+    self.contentView.bounces = bouncingEnabled;
+}
+
 - (NSArray<UIView *> *)loadedPages {
     return [self.pages allValues];
 }
