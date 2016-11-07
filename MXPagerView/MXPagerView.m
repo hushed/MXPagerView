@@ -283,7 +283,8 @@
             }
             
             [self.contentView addSubview:page];
-            
+            [self.contentView setNeedsLayout];
+		
             //Save page
             [self.pages setObject:page forKey:key];
             if (page.reuseIdentifier) {
