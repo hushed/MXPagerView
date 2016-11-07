@@ -52,7 +52,7 @@
     
     CGSize size = self.bounds.size;
     size.width = frame.size.width * _count;
-    if(!self.verticalScrollEnabled) = size.height = 0;
+    if(!self.verticalScrollEnabled) size.height = 0;
     self.contentView.contentSize = size;
     [self setContentIndex:_index animated:NO];
     
